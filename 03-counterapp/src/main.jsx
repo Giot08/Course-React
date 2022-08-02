@@ -1,13 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
-function App() {
-  // document.createElement('div')
-  return <h1>Hola mundo!!!!</h1>;
-}
+import { HolaMundo } from "./HolaMundo";
+import { FirstComponent } from "./FirstComponent";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App />
+    <HolaMundo />
+    <FirstComponent />
   </React.StrictMode>
 );
